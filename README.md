@@ -7,7 +7,7 @@ It determines your location at startup and continuously uses dawn and dusk times
 Copy `src/*` to a webserver location and open `index.html` in your browser.
 
 ## GeoLocation
-If you are going to depend on GeoLocation then the page must be server via https. If GeoLocation fails it defaults to a hardcoded location in `src/config.js`
+If you are going to depend on GeoLocation then the page must be served via https. If GeoLocation fails it defaults to a hardcoded location in `src/config.js`
 
 ## Dependencies
 None in the package file, although it uses `jquery` and `suncalc` from CloudFlare's CDN
