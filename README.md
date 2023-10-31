@@ -10,7 +10,7 @@ I wanted a simple bedroom clock that isn't intrusive at night but bright enough 
 Copy `src/*` to a webserver location and open `index.html` in your browser.
 
 ## GeoLocation
-If you are going to depend on GeoLocation then the page must be served via https. If GeoLocation fails it defaults to a hardcoded location in `src/config.js`
+If you are going to use GeoLocation then the page must be served from a secure location (eg. localhost or https). If GeoLocation fails it defaults to a hardcoded location in `src/config.js`
 
 ## Kiosk Mode (Android)
 In some browsers you can make the page full-screen (eliminates the web address and other headers so it's just the web page). I recommend using it this way.
