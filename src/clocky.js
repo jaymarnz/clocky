@@ -1,17 +1,25 @@
 // Copyright 2023 jaymarnz, https://github.com/jaymarnz
 // See LICENSE for details
 
-let position = config.position
+let position = config.position || null
 
 $(document).ready(() => {
   navigator.geolocation.getCurrentPosition(
-    (pos) => { position = pos },
-    (err) => { showError(err.message + '<br>Default position in use') }
+    (pos) => {
+      position = pos
+      run()
+    },
+    (err) => {
+      showError(err.message + '<br>Default position in use')
+      run()
+    }
   )
+})
 
+function run() {
   updateTime()
   setInterval(updateTime, 1000)
-})
+}
 
 function showError(msg) {
   $('.error').each(function () {
@@ -29,7 +37,7 @@ function updateTime() {
   const now = new Date()
   let isDaylight = true
 
-  if (position.coords) {
+  if (position && position.coords) {
     const times = SunCalc.getTimes(now, position.coords.latitude, position.coords.longitude)
 
     isDaylight =
