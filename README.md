@@ -15,7 +15,7 @@ If you are going to use GeoLocation then the page must be served from a secure l
 ## Kiosk Mode (Android)
 In some browsers you can make the page full-screen (eliminates the web address and other headers so it's just the web page). I recommend using it this way.
 
-I wasn't able to do this on my old Android tablet running Chrome so I use a free app called Fully Kiosk. There's probably others but this one works well for this:<br>https://play.google.com/store/apps/details?id=de.ozerov.fully&hl=en_US&gl=US
+I wasn't able to do this on my old Android phone running Chrome so I use a free app called Fully Kiosk. There's probably others but this one works well for this:<br>https://play.google.com/store/apps/details?id=de.ozerov.fully&hl=en_US&gl=US
 
 ## Kiosk Mode (iOS)
 iOS has a kiosk mode built-in. It's called Guided Access and is enabled in Settings -> Accessibility -> Guided Access
