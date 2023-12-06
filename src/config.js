@@ -5,10 +5,8 @@ const config = {
   // default position if html5 geolocation isn't available
   // if not provided then the solar angle isn't used and it stays in daytime mode
   position: {
-    // coords: {
-    //   latitude: 40.748627,
-    //   longitude: -73.985643
-    // }
+    // latitude: 40.748627,
+    // longitude: -73.985643
   },
   // sun's position to use for daytime:
   //    'sunrise', 'sunset'             at the horizon
