@@ -12,9 +12,9 @@ Open https://jaymarnz.dev/clocky in your browser. It will ask if you want to all
 If you want to make changes (such as update the default location so you can use it without Geolocation) or run from your own server or localhost, copy `src/*` to a webserver location and open `index.html` in your browser.
 
 ## GeoLocation
-To use the browser's GeoLocation then the page must be served from a secure context (eg. localhost or https).
+To use the browser's GeoLocation the index.html page must be served from a secure context (eg. localhost or https).
 
-If GeoLocation fails it defaults to the default location in `src/config.js`. Updating the default location in `src/config.js` is only necessary if you host it yourself in an unsecure context. It also isn't needed if you you use https://jaymarnz.dev/clocky
+If GeoLocation fails it defaults to the default location in `src/config.js`. Updating the default location in `src/config.js` is only necessary if you host it yourself in an unsecure context. It also isn't needed if you use https://jaymarnz.dev/clocky
 
 ## Kiosk Mode (Android)
 In some browsers you can make the page full-screen (eliminates the web address and other headers so it's just the web page). I recommend using it this way.
