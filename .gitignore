@@ -1,3 +1,4 @@
 node_modules/
 release.ps1
 notes.txt
+.DS_Store
