@@ -1,18 +1,17 @@
 {
   "name": "clocky",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A night-aware clock",
   "author": "jaymarnz",
   "license": "GPL-3.0",
   "scripts": {
-    "preinstall": "npx only-allow pnpm",
     "build": "node build.js",
     "clean": "rm -rf ./dist"
   },
   "devDependencies": {
     "copy": "^0.3.2",
-    "fs-extra": "^11.2.0",
-    "html-minifier": "^4.0.0",
+    "fs-extra": "^11.3.4",
+    "html-minifier-next": "^6.1.2",
     "inline-scripts": "github:jaymarnz/inline-scripts"
   }
 }
