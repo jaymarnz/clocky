@@ -1,4 +1,7 @@
 node_modules/
-release.ps1
+dist/
+config.local.js
+deploy.ps1
+deploy.zsh
 notes.txt
 .DS_Store
